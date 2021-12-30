@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>
+            Monitor I/O
+        </title>
+        <meta charset = "utf-8">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+        <link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <link rel = "stylesheet" href = "https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src = "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src = "https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <script src = "https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+        <link rel = "stylesheet" href = "SignupFiles/SignUp.css">
+    </head>
+    <body class = "text-center">
+        <div class = "container action-form mt-10">
+            <img class = "mb-4" src = "Icons/patientMonitor.png" alt = "Monitor I/O" width = "72" height = "72">
+            <h1>
+                Welcome to Monitor I/O!
+            </h1>
+            <p>
+                Please Sign up to use our services!
+            </p>
+            <div class = "form-signup">
+                <div class = "form-group">
+                    <input type = "email" class = "form-control" id = "inputEmail" placeholder = "Email address">
+                </div>
+                <div class = "form-group">
+                    <input type = "password" class = "form-control" id = "inputPassword" placeholder = "Password">
+                </div>
+                <div class = "form-group">
+                    <input type = "password" class = "form-control" id = "inputPasswordAgain" placeholder = "Confirm Password">
+                </div>
+                <div class = "form-group">
+                    <label class = "form-check-label">
+                        <input type = "checkbox" id = "TofS"> 
+                        I accept the 
+                        <a href = "#">
+                            Terms & Conditions
+                        </a>
+                    </label>
+                </div>
+                <button class = "btn btn-lg btn-secondary btn-block" id = "signupButton">
+                    Sign up
+                </button>
+            </div>
+            <div class = "row justify-content-center">
+                <p id = "message"></p>
+            </div>
+            <p>
+                Or <a href = "Login.html">Login</a> if you already have an account!
+            </p>
+            <p class = "mt-5 mb-3 text-muted"> 
+                &copy; University of Maryland, Baltimore County • 1000 Hilltop Circle • Baltimore, MD 21250
+                <br>
+                Created by Team 10
+                <br>
+                Members: Atta Navaid & Sam Sessums
+            </p>
+        </div>
+    </body>
+    <script src = "SignupFiles/SignUp.js"></script>
+</html>
